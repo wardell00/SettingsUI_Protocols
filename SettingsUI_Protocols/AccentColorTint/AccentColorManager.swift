@@ -25,7 +25,9 @@ public extension EnvironmentValues {
         get {
             self[AccentColorKey.self]
         } set {
-            UserDefaults.standard.set(newValue, forKey: AppStorageKey.accentColor)
+            if let data = try? JSONEncoder().encode(newValue) {
+                UserDefaults.standard.set(data, forKey: AppStorageKey.accentColor)
+            }
         }
     }
 }

@@ -36,7 +36,7 @@ public struct AccentColorTint: Codable, Identifiable {
     public var color: Color {
         if let colorName,
            colorHex == nil {
-            return Color(colorName)
+            return Color(colorName, bundle: .SettingsUI)
         }
         else if let colorHex,
                 colorName == nil {
@@ -49,29 +49,29 @@ public struct AccentColorTint: Codable, Identifiable {
 
 public extension AccentColorTint {
     
-    static let blue: AccentColorTint = .init(titleKey: "Blue Accent Color".localizedInFramework, colorName: "blue")
+    static let blue: AccentColorTint = .init(titleKey: "Blue Accent Color".localizedInFramework, colorName: "AppleBlue")
     
-    static let green: AccentColorTint = .init(titleKey: "Green Accent Color".localizedInFramework, colorName: "green")
+    static let green: AccentColorTint = .init(titleKey: "Green Accent Color".localizedInFramework, colorName: "AppleGreen")
     
-    static let red: AccentColorTint = .init(titleKey: "Red Accent Color".localizedInFramework, colorName: "red")
+    static let red: AccentColorTint = .init(titleKey: "Red Accent Color".localizedInFramework, colorName: "AppleRed")
     
-    static let purple: AccentColorTint = .init(titleKey: "Purple Accent Color".localizedInFramework, colorName: "purple")
+    static let purple: AccentColorTint = .init(titleKey: "Purple Accent Color".localizedInFramework, colorName: "ApplePurple")
     
-    static let blush: AccentColorTint = .init(titleKey: "Blush Accent Color".localizedInFramework, colorName: "blush")
+    static let blush: AccentColorTint = .init(titleKey: "Blush Accent Color".localizedInFramework, colorName: "AppleBlush")
     
-    static let cyan: AccentColorTint = .init(titleKey: "Cyan Accent Color".localizedInFramework, colorName: "cyan")
+    static let cyan: AccentColorTint = .init(titleKey: "Cyan Accent Color".localizedInFramework, colorName: "AppleCyan")
     
-    static let indigo: AccentColorTint = .init(titleKey: "Indigo Accent Color".localizedInFramework, colorName: "indigo")
+    static let indigo: AccentColorTint = .init(titleKey: "Indigo Accent Color".localizedInFramework, colorName: "AppleIndigo")
     
-    static let mint: AccentColorTint = .init(titleKey: "Mint Accent Color".localizedInFramework, colorName: "mint")
+    static let mint: AccentColorTint = .init(titleKey: "Mint Accent Color".localizedInFramework, colorName: "AppleMint")
     
-    static let orange: AccentColorTint = .init(titleKey: "Orange Accent Color".localizedInFramework, colorName: "orange")
+    static let orange: AccentColorTint = .init(titleKey: "Orange Accent Color".localizedInFramework, colorName: "AppleOrange")
     
-    static let pink: AccentColorTint = .init(titleKey: "Pink Accent Color".localizedInFramework, colorName: "pink")
+    static let pink: AccentColorTint = .init(titleKey: "Pink Accent Color".localizedInFramework, colorName: "ApplePink")
     
-    static let teal: AccentColorTint = .init(titleKey: "Teal Accent Color".localizedInFramework, colorName: "teal")
+    static let teal: AccentColorTint = .init(titleKey: "Teal Accent Color".localizedInFramework, colorName: "AppleTeal")
     
-    static let yellow: AccentColorTint = .init(titleKey: "Yellow Accent Color".localizedInFramework, colorName: "yellow")
+    static let yellow: AccentColorTint = .init(titleKey: "Yellow Accent Color".localizedInFramework, colorName: "AppleYellow")
     
     static let allCases: [AccentColorTint] = [
         .red,
