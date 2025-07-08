@@ -18,3 +18,14 @@ public struct AccentColorKey: EnvironmentKey {
         return .blue
     }
 }
+
+public extension EnvironmentValues {
+     
+    var accentColor: AccentColorTint {
+        get {
+            self[AccentColorKey.self]
+        } set {
+            UserDefaults.standard.set(newValue, forKey: AppStorageKey.accentColor)
+        }
+    }
+}
