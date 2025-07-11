@@ -14,7 +14,7 @@ public enum Appearance: String, CaseIterable, Codable, Identifiable {
     case Light
     case System
     
-    var image: Image {
+    public var image: Image {
         switch self {
         case .Dark:
             Image(systemName: "moon.fill")
@@ -25,7 +25,7 @@ public enum Appearance: String, CaseIterable, Codable, Identifiable {
         }
     }
     
-    var text: String {
+    public var text: String {
         switch self {
         case .Dark:
             "Appearance Dark Mode".localizedInFramework

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VkqrOUMmwGrY3REaiUocN/Gg7yc=
+		KlUGll2miUdnkTXjn9l1Zsn9QXY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PkRypO/B5vuvYkTXmTCVAgY+MrY=
+		kuqGPxQKldF4MjTYDdFOUlhc95A=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eYIdtTeN/oOTz5sC6MPg7fKDinI=
+		JKs+8vPXTDT4ZsPXxnFzXcijSZY=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eYIdtTeN/oOTz5sC6MPg7fKDinI=
+		JKs+8vPXTDT4ZsPXxnFzXcijSZY=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B0mqnd5kNIeJGN+Pv6ehAV3FFeM=
+		1M+5MRvK3jxi4FeJ336Ny/4LPGU=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PkRypO/B5vuvYkTXmTCVAgY+MrY=
+		kuqGPxQKldF4MjTYDdFOUlhc95A=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vPJRJObRBg5oH1+PNvEh26J3O3Q=
+		i+SllZH+TRLou6GaBGJDyeWF30M=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vPJRJObRBg5oH1+PNvEh26J3O3Q=
+		i+SllZH+TRLou6GaBGJDyeWF30M=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YoPHMAbf3+ZpFQvacNUMkpx6tiw=
+		dThYaCZbRznP+TDWcyVZ5SONlpw=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -77,21 +77,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsUbxlbVsRK8VRXSUGKHB0aGtTK6OSOA4/52O5+GXXU=
+			7n+ckyKGMieQoc221RJFFaX0pfIH3/9d82k07qR+8WA=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dIepsR2nGj9zD4oXSat6KJwGy2wtRyn2DQbyue5XgZQ=
+			j6Ch4ZW/Njqn2kmrfTqtmWUqP78LKBvA2GpqjImi/iY=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iuxvRM+1SXMw/abPi2ozjlc8khsJB7E23e4zOnmKWQ=
+			3G3HT1bKeKwhhoYXrF1hDnv4MoPWEXUJ///Pt6FWPrA=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -105,28 +105,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iuxvRM+1SXMw/abPi2ozjlc8khsJB7E23e4zOnmKWQ=
+			3G3HT1bKeKwhhoYXrF1hDnv4MoPWEXUJ///Pt6FWPrA=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9E8w1lKy8w5FeWPGbBLSoreW4jqd/6L37WaA6+mAmT8=
+			g/+415R+9q1oIYw2zpZEnFXz/LqVeDB5Lf5DpWYutxc=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dIepsR2nGj9zD4oXSat6KJwGy2wtRyn2DQbyue5XgZQ=
+			j6Ch4ZW/Njqn2kmrfTqtmWUqP78LKBvA2GpqjImi/iY=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zuXUX/RhFrkYs1TSYbNOumOiX5hlf0HZjPOrUqsjBn8=
+			GN7qPQdncE6t1wTDcU7nf0ekFU91U0pI+g021nrOny8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -140,14 +140,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zuXUX/RhFrkYs1TSYbNOumOiX5hlf0HZjPOrUqsjBn8=
+			GN7qPQdncE6t1wTDcU7nf0ekFU91U0pI+g021nrOny8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kLlcpQnvfFBx2jKWxSffN1GFkNrOQ3jVRzvFihR2fcw=
+			9BN70VJnX8vYIOV/Kpip/AAYgzMgprwXvzSQMiS9d3E=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
