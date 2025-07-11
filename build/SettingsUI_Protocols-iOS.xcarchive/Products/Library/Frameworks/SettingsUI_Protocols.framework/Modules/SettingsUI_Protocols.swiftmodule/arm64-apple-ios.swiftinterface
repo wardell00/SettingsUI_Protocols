@@ -105,6 +105,10 @@ public struct AppStorageKey {
 }
 public struct URLLink : Swift.Identifiable {
   public let id: Foundation.UUID
+  public let systemImage: Swift.String
+  public let url: Foundation.URL?
+  public let text: SwiftUICore.LocalizedStringKey
+  public let color: SwiftUICore.Color
   public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
   public typealias ID = Foundation.UUID
 }

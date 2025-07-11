@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		XuSYUGTPTv3s0xAo/HH/XiJWUG4=
+		VqA2S1EGp0u75bojsXnvtVWsaLo=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
@@ -37,14 +37,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8sPZPc1S5+eWnvAhw0nImnrhBiEE5fIgW1YYPjL1fEc=
+			s+Iraai4APZWaZ9ZAlvc96fJKeNb4hkzQL3lMd26NVs=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			POR8EN2R5m+9PitwNaIoLq+f9KP/4x5NF+cmaSmEbBw=
+			/r0Wa/6SsCxumb05Td6ezJj2IDjKxvKf5vsrJy2IxFY=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -58,28 +58,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			POR8EN2R5m+9PitwNaIoLq+f9KP/4x5NF+cmaSmEbBw=
+			/r0Wa/6SsCxumb05Td6ezJj2IDjKxvKf5vsrJy2IxFY=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4s1D7ACmBvXsBARZtrgzpX+pj1U5i1FCQmN/+sqT9K4=
+			6IApoY9yQQa7esf/mdEHIXZjHF6WxeCllL7jFjCJAeQ=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8sPZPc1S5+eWnvAhw0nImnrhBiEE5fIgW1YYPjL1fEc=
+			s+Iraai4APZWaZ9ZAlvc96fJKeNb4hkzQL3lMd26NVs=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1pEN6QHcRwyARmQzy8kZHJ3gMQWkXy0Sc+GeCXZMb+M=
+			U+H+Lb912OCHSPGHXysVUIxex09Othk0xi7nDc7zdhg=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -93,21 +93,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1pEN6QHcRwyARmQzy8kZHJ3gMQWkXy0Sc+GeCXZMb+M=
+			U+H+Lb912OCHSPGHXysVUIxex09Othk0xi7nDc7zdhg=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wgwskzv0pmhzhBFV1Hkx+o9O4n5CzBrqy1Q20ud2LSY=
+			T0JN6oi5/NxBhxYBQM5jpxTdKzKLZ/5Uh0gNjuJweoA=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			seGEhBlQu1MWnD+izGjudBM54jRuxuLoNOoI5/Og7RY=
+			3rFeKvER5i7m8eEcDrtNdtpaN5agEa17m6e/BNNImd4=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>

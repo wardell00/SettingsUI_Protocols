@@ -9,10 +9,10 @@ import SwiftUI
 
 public struct URLLink: Identifiable {
     public let id: UUID
-    let systemImage: String
-    let url: URL?
-    let text: LocalizedStringKey
-    let color: Color
+    public let systemImage: String
+    public let url: URL?
+    public let text: LocalizedStringKey
+    public let color: Color
     
     public init(id: UUID, systemImage: String, url: URL?, text: LocalizedStringKey, color: Color) {
         self.id = id

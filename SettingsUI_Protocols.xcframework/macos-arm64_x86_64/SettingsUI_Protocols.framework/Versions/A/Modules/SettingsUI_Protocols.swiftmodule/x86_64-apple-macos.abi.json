@@ -6,6 +6,390 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLLink",
+        "printedName": "URLLink",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
+                "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
+                "moduleName": "SettingsUI_Protocols",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemImage",
+            "printedName": "systemImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV11systemImageSSvp",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV11systemImageSSvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV11systemImageSSvg",
+                "mangledName": "$s20SettingsUI_Protocols7URLLinkV11systemImageSSvg",
+                "moduleName": "SettingsUI_Protocols",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV3url10Foundation3URLVSgvp",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV3url10Foundation3URLVSgvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV3url10Foundation3URLVSgvg",
+                "mangledName": "$s20SettingsUI_Protocols7URLLinkV3url10Foundation3URLVSgvg",
+                "moduleName": "SettingsUI_Protocols",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalizedStringKey",
+                "printedName": "SwiftUI.LocalizedStringKey",
+                "usr": "s:7SwiftUI18LocalizedStringKeyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV4text05SwiftB018LocalizedStringKeyVvp",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV4text05SwiftB018LocalizedStringKeyVvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalizedStringKey",
+                    "printedName": "SwiftUI.LocalizedStringKey",
+                    "usr": "s:7SwiftUI18LocalizedStringKeyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV4text05SwiftB018LocalizedStringKeyVvg",
+                "mangledName": "$s20SettingsUI_Protocols7URLLinkV4text05SwiftB018LocalizedStringKeyVvg",
+                "moduleName": "SettingsUI_Protocols",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV5color05SwiftB05ColorVvp",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV5color05SwiftB05ColorVvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV5color05SwiftB05ColorVvg",
+                "mangledName": "$s20SettingsUI_Protocols7URLLinkV5color05SwiftB05ColorVvg",
+                "moduleName": "SettingsUI_Protocols",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:systemImage:url:text:color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLLink",
+                "printedName": "SettingsUI_Protocols.URLLink",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocalizedStringKey",
+                "printedName": "SwiftUI.LocalizedStringKey",
+                "usr": "s:7SwiftUI18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20SettingsUI_Protocols7URLLinkV",
+        "mangledName": "$s20SettingsUI_Protocols7URLLinkV",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2212,198 +2596,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "URLLink",
-        "printedName": "URLLink",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
-            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
-                "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
-                "moduleName": "SettingsUI_Protocols",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(id:systemImage:url:text:color:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLLink",
-                "printedName": "SettingsUI_Protocols.URLLink",
-                "usr": "s:20SettingsUI_Protocols7URLLinkV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LocalizedStringKey",
-                "printedName": "SwiftUI.LocalizedStringKey",
-                "usr": "s:7SwiftUI18LocalizedStringKeyV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
-            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20SettingsUI_Protocols7URLLinkV",
-        "mangledName": "$s20SettingsUI_Protocols7URLLinkV",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols"
       },
       {
         "kind": "Import",
