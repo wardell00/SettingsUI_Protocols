@@ -10,6 +10,49 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension SwiftUICore.Color {
+  public init?(hex: Swift.String)
+}
+public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
+  public var id: SettingsUI_Protocols.Appearance {
+    get
+  }
+  case Dark
+  case Light
+  case System
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SettingsUI_Protocols.Appearance]
+  public typealias ID = SettingsUI_Protocols.Appearance
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SettingsUI_Protocols.Appearance] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct AppearanceKey : SwiftUICore.EnvironmentKey {
+  public static var defaultValue: SettingsUI_Protocols.Appearance {
+    get
+  }
+  public typealias Value = SettingsUI_Protocols.Appearance
+}
+extension SwiftUICore.EnvironmentValues {
+  public var appearance: SettingsUI_Protocols.Appearance {
+    get
+    set
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20SettingsUI_Protocols20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
+  
+}
 public struct AppStorageKey {
 }
 public struct URLLink : Swift.Identifiable {
@@ -74,49 +117,6 @@ extension SettingsUI_Protocols.AccentColorTint {
   public static let teal: SettingsUI_Protocols.AccentColorTint
   public static let yellow: SettingsUI_Protocols.AccentColorTint
   public static let allCases: [SettingsUI_Protocols.AccentColorTint]
-}
-extension SwiftUICore.Color {
-  public init?(hex: Swift.String)
-}
-public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
-  public var id: SettingsUI_Protocols.Appearance {
-    get
-  }
-  case Dark
-  case Light
-  case System
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [SettingsUI_Protocols.Appearance]
-  public typealias ID = SettingsUI_Protocols.Appearance
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [SettingsUI_Protocols.Appearance] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct AppearanceKey : SwiftUICore.EnvironmentKey {
-  public static var defaultValue: SettingsUI_Protocols.Appearance {
-    get
-  }
-  public typealias Value = SettingsUI_Protocols.Appearance
-}
-extension SwiftUICore.EnvironmentValues {
-  public var appearance: SettingsUI_Protocols.Appearance {
-    get
-    set
-  }
-}
-@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s20SettingsUI_Protocols20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
-  
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}

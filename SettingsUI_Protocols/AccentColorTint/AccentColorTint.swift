@@ -86,7 +86,6 @@ public extension AccentColorTint {
         .teal,
         .cyan,
         .indigo,
-        .teal
     ]
     
 }

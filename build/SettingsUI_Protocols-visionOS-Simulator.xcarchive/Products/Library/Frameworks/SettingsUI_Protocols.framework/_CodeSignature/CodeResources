@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		AO3CFuE7XmQ9cimEXOcefZSHNSU=
+		QiUcp+1B//2tDpnff1Ie5UcQT5A=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		wGLH+IoId85vKy4TycqST64QKJ4=
+		krSekmiGgEITedWglyGuDatXGDs=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		OHqkS9bD40gRspb5UB8WNT+dTlQ=
+		R/TE6saSx0iW8M13taPhPpXUjrA=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		OHqkS9bD40gRspb5UB8WNT+dTlQ=
+		R/TE6saSx0iW8M13taPhPpXUjrA=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		BNZjrw+vJbham8akz1lhI/ghBQ0=
+		+7sxFaOYbdc/ZvlDmsXwCOHqlaQ=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		wGLH+IoId85vKy4TycqST64QKJ4=
+		krSekmiGgEITedWglyGuDatXGDs=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		kPbVoohTKkOPtQwcG89V15ace9M=
+		+UDoY0dFrfssalFS4PsSvPfc3ZQ=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		kPbVoohTKkOPtQwcG89V15ace9M=
+		+UDoY0dFrfssalFS4PsSvPfc3ZQ=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		qTknKBfEV7SWkyOz7olZ1zeFVj0=
+		bui1RsfcJzAOI1dMQ28W/d0FmXY=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -77,21 +77,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QTu9J/p4uASF1ON7Li0b4BPXTBQ0jYBbXO+8zM7V2Ns=
+			7RfEqGe4pdnFq+5VCrAo7cw1jL3/H7RIwd+t1nKuO+o=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3uXGUnL72ANmFqHYqdu0vPPVWvYZKar+Otq7m4+EFU=
+			PUcsaU6DTMw1GAdX8i2lp5m4UUqvhdeFtoCLiPedUIo=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gj3p2Zcc9Q+h0vK1JgemfPwRybhZjbH3YLNufSH/zw0=
+			ad/GqYiysjezROMW2NyVjtpS03gSPXVV7MxjrkWYl5g=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
@@ -105,28 +105,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gj3p2Zcc9Q+h0vK1JgemfPwRybhZjbH3YLNufSH/zw0=
+			ad/GqYiysjezROMW2NyVjtpS03gSPXVV7MxjrkWYl5g=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHQmPba7QBZixXFpeJ3FvvVvZ6wQhdH+k9qCo6DjJrY=
+			w/wbIuLi6G/jQgW3Y6cbpPvmM6u6+6pusCgvIzdYrio=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3uXGUnL72ANmFqHYqdu0vPPVWvYZKar+Otq7m4+EFU=
+			PUcsaU6DTMw1GAdX8i2lp5m4UUqvhdeFtoCLiPedUIo=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nP4nLbkYo9zBOjxEeLYWNbhpHWPc0z9NsSJRf4A57YA=
+			6BxBvjypnF7MZGhKyYZEbW/dUnilXW3UMwIEbMSylWw=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
@@ -140,14 +140,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nP4nLbkYo9zBOjxEeLYWNbhpHWPc0z9NsSJRf4A57YA=
+			6BxBvjypnF7MZGhKyYZEbW/dUnilXW3UMwIEbMSylWw=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			duGqJSPYdkAjuejTH3lILlsNgOSycywOwdqtGoG3IM8=
+			ZIrk60yaXXNnzSJ3B2ZJDKst55w4sqpCxwfhk6YGwpc=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
