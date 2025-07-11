@@ -10,27 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct URLLink : Swift.Identifiable {
-  public let id: Foundation.UUID
-  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
-  public typealias ID = Foundation.UUID
-}
-final public class SettingsValues {
-  final public var appearance: SettingsUI_Protocols.Appearance {
-    get
-    set
-    _modify
-  }
-  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
-    get
-    set
-    _modify
-  }
-  public init()
-  @objc deinit
-}
-extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
-}
 public struct AccentColorKey : SwiftUICore.EnvironmentKey {
   public static var defaultValue: SettingsUI_Protocols.AccentColorTint {
     get
@@ -116,6 +95,27 @@ extension SwiftUICore.View {
   
 }
 public struct AppStorageKey {
+}
+public struct URLLink : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  public typealias ID = Foundation.UUID
+}
+final public class SettingsValues {
+  final public var appearance: SettingsUI_Protocols.Appearance {
+    get
+    set
+    _modify
+  }
+  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
+    get
+    set
+    _modify
+  }
+  public init()
+  @objc deinit
+}
+extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}

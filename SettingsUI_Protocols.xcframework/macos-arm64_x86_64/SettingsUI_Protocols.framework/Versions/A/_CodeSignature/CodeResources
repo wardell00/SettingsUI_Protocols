@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		Bf4nSfJraLMDsiG92spVjeKUp24=
+		VqA2S1EGp0u75bojsXnvtVWsaLo=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
@@ -16,7 +16,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4JlEshKMaRjzENFOCsasGqbkMkM=
+			qFg6A1nrHEdIYAKzO94NKhlgRI8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -25,7 +25,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5DvDANeZ6EeAj8z/ZxTQcijPWeA=
+			ws5xSlwEObCOhE4yLg9m31UxQ+w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -37,14 +37,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			epRCnJYDj2QN8dJCUsGF7DTqsOpVvewbUAkDrO2GxsY=
+			rIMpuGa3m3gBUfhiN5u7at0SCVLrXy8y2miIbEqmtNw=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+Ak2iZob8QhwpPYt4GDmoW8x0G8FKgrHwZlp6vUcMQ=
+			C2z6KzG+/i+hFLuKIj+9lVZvh3fyzG6H0MBNEqSVJo8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -58,28 +58,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+Ak2iZob8QhwpPYt4GDmoW8x0G8FKgrHwZlp6vUcMQ=
+			C2z6KzG+/i+hFLuKIj+9lVZvh3fyzG6H0MBNEqSVJo8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B+3h3wN+KefDk8RPzQOQIsrnikQ5aBxJo9Wkq0S9psU=
+			zxe1QOzZ9T4mD5aWmso1KHzvmI5LEF4c66CBATt2kVY=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			epRCnJYDj2QN8dJCUsGF7DTqsOpVvewbUAkDrO2GxsY=
+			rIMpuGa3m3gBUfhiN5u7at0SCVLrXy8y2miIbEqmtNw=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfCmcC7LIr1Q1dLjMjR1q0V6zOt5DcP5RNBpU7C5Eb0=
+			BpQi4fEJTTHlPCrhWqO3knKbxcbz8Vj6M0SI4U/mdK8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -93,21 +93,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfCmcC7LIr1Q1dLjMjR1q0V6zOt5DcP5RNBpU7C5Eb0=
+			BpQi4fEJTTHlPCrhWqO3knKbxcbz8Vj6M0SI4U/mdK8=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVZzumCUYv78u8iO33XzBH9D933pTdgcuPWl2j7eR8s=
+			PnmVp26FM30QtQDVjM4AvdhY0++5DYzoMiKrRcrRq9Y=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eYFSkYcY7T/zrGQan6L4TD9u3rGLm5hpfL+xzto2YB4=
+			3rFeKvER5i7m8eEcDrtNdtpaN5agEa17m6e/BNNImd4=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zthRZzDrDcHqlvqEMbr3CweB/kEu+QkhzBNb+a+AJkM=
+			NXnLayWAOw+IgBp7SJBv+UNsyo5eihNvWHLL+1L1FyE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+77A2nZ/VfmtEhHKd745d5LflqFZh7nrbXqI1+XJao=
+			oYppRh9sgFgz9dLUQhYvmoEznalBLqFYnMV1RuJL1Os=
 			</data>
 			<key>optional</key>
 			<true/>

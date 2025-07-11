@@ -10,13 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct AppStorageKey {
-}
-public struct URLLink : Swift.Identifiable {
-  public let id: Foundation.UUID
-  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
-  public typealias ID = Foundation.UUID
-}
 final public class SettingsValues {
   final public var appearance: SettingsUI_Protocols.Appearance {
     get
@@ -116,6 +109,13 @@ extension SwiftUICore.EnvironmentValues {
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
   
+}
+public struct AppStorageKey {
+}
+public struct URLLink : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  public typealias ID = Foundation.UUID
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}

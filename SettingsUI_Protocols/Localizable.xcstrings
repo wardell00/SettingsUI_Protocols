@@ -1,24 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Accent Color" : {
-      "comment" : "Accent Color Navigation Title",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Akzentfarbe"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Accent Color"
-          }
-        }
-      }
-    },
     "Appearance Dark Mode" : {
       "comment" : "Appearance Dark",
       "extractionState" : "manual",
@@ -51,24 +33,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Light"
-          }
-        }
-      }
-    },
-    "Appearance Navigation Title" : {
-      "comment" : "Appearance Navigation Title",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erscheinungsbild"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Appearance"
           }
         }
       }
@@ -181,23 +145,6 @@
         }
       }
     },
-    "Manage Tags" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tags bearbeiten"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manage Tags"
-          }
-        }
-      }
-    },
     "Mint Accent Color" : {
       "comment" : "Label Mint",
       "extractionState" : "manual",
@@ -266,23 +213,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Purple"
-          }
-        }
-      }
-    },
-    "Recently Deleted" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zuletzt Gelöscht"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recently Deleted"
           }
         }
       }
