@@ -10,6 +10,27 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct URLLink : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
+  public typealias ID = Foundation.UUID
+}
+final public class SettingsValues {
+  final public var appearance: SettingsUI_Protocols.Appearance {
+    get
+    set
+    _modify
+  }
+  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
+    get
+    set
+    _modify
+  }
+  public init()
+  @objc deinit
+}
+extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
+}
 public struct AccentColorKey : SwiftUICore.EnvironmentKey {
   public static var defaultValue: SettingsUI_Protocols.AccentColorTint {
     get
@@ -22,7 +43,7 @@ extension SwiftUICore.EnvironmentValues {
     set
   }
 }
-public struct AccentColorTint : Swift.Codable, Swift.Identifiable {
+public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
   public var id: Foundation.UUID
   public init(titleKey: Swift.String, colorName: Swift.String)
   public init(titleKey: Swift.String, colorHex: Swift.String)
@@ -32,6 +53,7 @@ public struct AccentColorTint : Swift.Codable, Swift.Identifiable {
   public var color: SwiftUICore.Color {
     get
   }
+  public static func == (a: SettingsUI_Protocols.AccentColorTint, b: SettingsUI_Protocols.AccentColorTint) -> Swift.Bool
   public typealias ID = Foundation.UUID
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -95,27 +117,6 @@ extension SwiftUICore.View {
   
 }
 public struct AppStorageKey {
-}
-public struct URLLink : Swift.Identifiable {
-  public let id: Foundation.UUID
-  public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
-  public typealias ID = Foundation.UUID
-}
-final public class SettingsValues {
-  final public var appearance: SettingsUI_Protocols.Appearance {
-    get
-    set
-    _modify
-  }
-  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
-    get
-    set
-    _modify
-  }
-  public init()
-  @objc deinit
-}
-extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}

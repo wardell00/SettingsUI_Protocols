@@ -6,6 +6,488 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppStorageKey",
+        "printedName": "AppStorageKey",
+        "declKind": "Struct",
+        "usr": "s:20SettingsUI_Protocols13AppStorageKeyV",
+        "mangledName": "$s20SettingsUI_Protocols13AppStorageKeyV",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLLink",
+        "printedName": "URLLink",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
+                "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
+                "moduleName": "SettingsUI_Protocols",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:systemImage:url:text:color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLLink",
+                "printedName": "SettingsUI_Protocols.URLLink",
+                "usr": "s:20SettingsUI_Protocols7URLLinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocalizedStringKey",
+                "printedName": "SwiftUI.LocalizedStringKey",
+                "usr": "s:7SwiftUI18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
+            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20SettingsUI_Protocols7URLLinkV",
+        "mangledName": "$s20SettingsUI_Protocols7URLLinkV",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SettingsValues",
+        "printedName": "SettingsValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SettingsUI_Protocols.Appearance",
+                "usr": "s:20SettingsUI_Protocols10AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvp",
+            "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI_Protocols.Appearance",
+                    "usr": "s:20SettingsUI_Protocols10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvg",
+                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvg",
+                "moduleName": "SettingsUI_Protocols",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI_Protocols.Appearance",
+                    "usr": "s:20SettingsUI_Protocols10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvs",
+                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvs",
+                "moduleName": "SettingsUI_Protocols",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvM",
+                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvM",
+                "moduleName": "SettingsUI_Protocols",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accentColor",
+            "printedName": "accentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI_Protocols.AccentColorTint",
+                "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvp",
+            "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvp",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI_Protocols.AccentColorTint",
+                    "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvg",
+                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvg",
+                "moduleName": "SettingsUI_Protocols",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccentColorTint",
+                    "printedName": "SettingsUI_Protocols.AccentColorTint",
+                    "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvs",
+                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvs",
+                "moduleName": "SettingsUI_Protocols",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvM",
+                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvM",
+                "moduleName": "SettingsUI_Protocols",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SettingsValues",
+                "printedName": "SettingsUI_Protocols.SettingsValues",
+                "usr": "s:20SettingsUI_Protocols0A6ValuesC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20SettingsUI_Protocols0A6ValuesCACycfc",
+            "mangledName": "$s20SettingsUI_Protocols0A6ValuesCACycfc",
+            "moduleName": "SettingsUI_Protocols",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20SettingsUI_Protocols0A6ValuesC",
+        "mangledName": "$s20SettingsUI_Protocols0A6ValuesC",
+        "moduleName": "SettingsUI_Protocols",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Observable",
+            "printedName": "Observable",
+            "usr": "s:11Observation10ObservableP",
+            "mangledName": "$s11Observation10ObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -404,6 +886,38 @@
             "moduleName": "SettingsUI_Protocols",
             "implicit": true,
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI_Protocols.AccentColorTint",
+                "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccentColorTint",
+                "printedName": "SettingsUI_Protocols.AccentColorTint",
+                "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SettingsUI_Protocols15AccentColorTintV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20SettingsUI_Protocols15AccentColorTintV2eeoiySbAC_ACtFZ",
+            "moduleName": "SettingsUI_Protocols",
+            "static": true,
+            "implicit": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1104,6 +1618,13 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -1284,39 +1805,6 @@
             "moduleName": "SettingsUI_Protocols"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SettingsUI_Protocols.Appearance?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Appearance",
-                    "printedName": "SettingsUI_Protocols.Appearance",
-                    "usr": "s:20SettingsUI_Protocols10AppearanceO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20SettingsUI_Protocols10AppearanceO8rawValueACSgSS_tcfc",
-            "mangledName": "$s20SettingsUI_Protocols10AppearanceO8rawValueACSgSS_tcfc",
-            "moduleName": "SettingsUI_Protocols",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -1354,6 +1842,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SettingsUI_Protocols.Appearance?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SettingsUI_Protocols.Appearance",
+                    "usr": "s:20SettingsUI_Protocols10AppearanceO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20SettingsUI_Protocols10AppearanceO8rawValueACSgSS_tcfc",
+            "mangledName": "$s20SettingsUI_Protocols10AppearanceO8rawValueACSgSS_tcfc",
+            "moduleName": "SettingsUI_Protocols",
+            "implicit": true,
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
@@ -1782,488 +2303,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AppStorageKey",
-        "printedName": "AppStorageKey",
-        "declKind": "Struct",
-        "usr": "s:20SettingsUI_Protocols13AppStorageKeyV",
-        "mangledName": "$s20SettingsUI_Protocols13AppStorageKeyV",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "URLLink",
-        "printedName": "URLLink",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
-            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvp",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
-                "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id10Foundation4UUIDVvg",
-                "moduleName": "SettingsUI_Protocols",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(id:systemImage:url:text:color:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLLink",
-                "printedName": "SettingsUI_Protocols.URLLink",
-                "usr": "s:20SettingsUI_Protocols7URLLinkV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LocalizedStringKey",
-                "printedName": "SwiftUI.LocalizedStringKey",
-                "usr": "s:7SwiftUI18LocalizedStringKeyV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
-            "mangledName": "$s20SettingsUI_Protocols7URLLinkV2id11systemImage3url4text5colorAC10Foundation4UUIDV_SSAI3URLVSg05SwiftB018LocalizedStringKeyVAO5ColorVtcfc",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:20SettingsUI_Protocols7URLLinkV",
-        "mangledName": "$s20SettingsUI_Protocols7URLLinkV",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SettingsValues",
-        "printedName": "SettingsValues",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "appearance",
-            "printedName": "appearance",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Appearance",
-                "printedName": "SettingsUI_Protocols.Appearance",
-                "usr": "s:20SettingsUI_Protocols10AppearanceO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvp",
-            "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvp",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "Final",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Appearance",
-                    "printedName": "SettingsUI_Protocols.Appearance",
-                    "usr": "s:20SettingsUI_Protocols10AppearanceO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvg",
-                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvg",
-                "moduleName": "SettingsUI_Protocols",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Appearance",
-                    "printedName": "SettingsUI_Protocols.Appearance",
-                    "usr": "s:20SettingsUI_Protocols10AppearanceO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvs",
-                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvs",
-                "moduleName": "SettingsUI_Protocols",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvM",
-                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC10appearanceAA10AppearanceOvM",
-                "moduleName": "SettingsUI_Protocols",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accentColor",
-            "printedName": "accentColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AccentColorTint",
-                "printedName": "SettingsUI_Protocols.AccentColorTint",
-                "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvp",
-            "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvp",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "Final",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AccentColorTint",
-                    "printedName": "SettingsUI_Protocols.AccentColorTint",
-                    "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvg",
-                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvg",
-                "moduleName": "SettingsUI_Protocols",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AccentColorTint",
-                    "printedName": "SettingsUI_Protocols.AccentColorTint",
-                    "usr": "s:20SettingsUI_Protocols15AccentColorTintV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvs",
-                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvs",
-                "moduleName": "SettingsUI_Protocols",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvM",
-                "mangledName": "$s20SettingsUI_Protocols0A6ValuesC11accentColorAA06AccentF4TintVvM",
-                "moduleName": "SettingsUI_Protocols",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SettingsValues",
-                "printedName": "SettingsUI_Protocols.SettingsValues",
-                "usr": "s:20SettingsUI_Protocols0A6ValuesC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:20SettingsUI_Protocols0A6ValuesCACycfc",
-            "mangledName": "$s20SettingsUI_Protocols0A6ValuesCACycfc",
-            "moduleName": "SettingsUI_Protocols",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:20SettingsUI_Protocols0A6ValuesC",
-        "mangledName": "$s20SettingsUI_Protocols0A6ValuesC",
-        "moduleName": "SettingsUI_Protocols",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "Custom"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Observable",
-            "printedName": "Observable",
-            "usr": "s:11Observation10ObservableP",
-            "mangledName": "$s11Observation10ObservableP"
           }
         ]
       },
@@ -2796,174 +2835,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1127,
-      "length": 19,
-      "value": "\"Blue Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 11,
-      "value": "\"AppleBlue\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1254,
-      "length": 20,
-      "value": "\"Green Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1308,
-      "length": 12,
-      "value": "\"AppleGreen\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1381,
-      "length": 18,
-      "value": "\"Red Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1433,
-      "length": 10,
-      "value": "\"AppleRed\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1507,
-      "length": 21,
-      "value": "\"Purple Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1562,
-      "length": 13,
-      "value": "\"ApplePurple\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1638,
-      "length": 20,
-      "value": "\"Blush Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1692,
-      "length": 12,
-      "value": "\"AppleBlush\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1766,
-      "length": 19,
-      "value": "\"Cyan Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1819,
-      "length": 11,
-      "value": "\"AppleCyan\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1894,
-      "length": 21,
-      "value": "\"Indigo Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 1949,
-      "length": 13,
-      "value": "\"AppleIndigo\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2024,
-      "length": 19,
-      "value": "\"Mint Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2077,
-      "length": 11,
-      "value": "\"AppleMint\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2152,
-      "length": 21,
-      "value": "\"Orange Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2207,
-      "length": 13,
-      "value": "\"AppleOrange\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2282,
-      "length": 19,
-      "value": "\"Pink Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2335,
-      "length": 11,
-      "value": "\"ApplePink\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 19,
-      "value": "\"Teal Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2461,
-      "length": 11,
-      "value": "\"AppleTeal\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2536,
-      "length": 21,
-      "value": "\"Yellow Accent Color\""
-    },
-    {
-      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
-      "kind": "StringLiteral",
-      "offset": 2591,
-      "length": 13,
-      "value": "\"AppleYellow\""
-    },
-    {
       "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AppStorageKeys\/AppStorageKeys.swift",
       "kind": "StringLiteral",
       "offset": 189,
@@ -2976,6 +2847,174 @@
       "offset": 242,
       "length": 16,
       "value": "\"AccentColorKey\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 19,
+      "value": "\"Blue Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1191,
+      "length": 11,
+      "value": "\"AppleBlue\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 20,
+      "value": "\"Green Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 12,
+      "value": "\"AppleGreen\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 18,
+      "value": "\"Red Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 10,
+      "value": "\"AppleRed\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 21,
+      "value": "\"Purple Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1573,
+      "length": 13,
+      "value": "\"ApplePurple\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 20,
+      "value": "\"Blush Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 12,
+      "value": "\"AppleBlush\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 19,
+      "value": "\"Cyan Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 11,
+      "value": "\"AppleCyan\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1905,
+      "length": 21,
+      "value": "\"Indigo Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 13,
+      "value": "\"AppleIndigo\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2035,
+      "length": 19,
+      "value": "\"Mint Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2088,
+      "length": 11,
+      "value": "\"AppleMint\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2163,
+      "length": 21,
+      "value": "\"Orange Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 13,
+      "value": "\"AppleOrange\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2293,
+      "length": 19,
+      "value": "\"Pink Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2346,
+      "length": 11,
+      "value": "\"ApplePink\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2419,
+      "length": 19,
+      "value": "\"Teal Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2472,
+      "length": 11,
+      "value": "\"AppleTeal\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2547,
+      "length": 21,
+      "value": "\"Yellow Accent Color\""
+    },
+    {
+      "filePath": "\/Users\/alexanderlowe\/SwiftApps\/Frameworks\/SettingsUI_Protocols\/SettingsUI_Protocols\/AccentColorTint\/AccentColorTint.swift",
+      "kind": "StringLiteral",
+      "offset": 2602,
+      "length": 13,
+      "value": "\"AppleYellow\""
     },
     {
       "filePath": "\/Users\/alexanderlowe\/Library\/Developer\/Xcode\/DerivedData\/SettingsUI_Protocols-crqtdnltkulnzbckqfywclsefliz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SettingsUI_Protocols\/IntermediateBuildFilesPath\/SettingsUI_Protocols.build\/Release-iphoneos\/SettingsUI_Protocols.build\/DerivedSources\/GeneratedAssetSymbols.swift",

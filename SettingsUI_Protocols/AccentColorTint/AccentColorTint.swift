@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct AccentColorTint: Codable, Identifiable {
+public struct AccentColorTint: Codable, Identifiable, Equatable {
     
     public var id: UUID = UUID()
     

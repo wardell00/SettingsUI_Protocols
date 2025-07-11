@@ -43,7 +43,7 @@ extension SwiftUICore.EnvironmentValues {
     set
   }
 }
-public struct AccentColorTint : Swift.Codable, Swift.Identifiable {
+public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
   public var id: Foundation.UUID
   public init(titleKey: Swift.String, colorName: Swift.String)
   public init(titleKey: Swift.String, colorHex: Swift.String)
@@ -53,6 +53,7 @@ public struct AccentColorTint : Swift.Codable, Swift.Identifiable {
   public var color: SwiftUICore.Color {
     get
   }
+  public static func == (a: SettingsUI_Protocols.AccentColorTint, b: SettingsUI_Protocols.AccentColorTint) -> Swift.Bool
   public typealias ID = Foundation.UUID
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
