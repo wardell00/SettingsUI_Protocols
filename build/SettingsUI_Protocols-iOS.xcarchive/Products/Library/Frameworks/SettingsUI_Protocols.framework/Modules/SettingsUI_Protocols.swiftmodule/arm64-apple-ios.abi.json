@@ -1246,7 +1246,8 @@
             "declKind": "EnumElement",
             "usr": "s:20SettingsUI_Protocols10AppearanceO4DarkyA2CmF",
             "mangledName": "$s20SettingsUI_Protocols10AppearanceO4DarkyA2CmF",
-            "moduleName": "SettingsUI_Protocols"
+            "moduleName": "SettingsUI_Protocols",
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -1283,7 +1284,8 @@
             "declKind": "EnumElement",
             "usr": "s:20SettingsUI_Protocols10AppearanceO5LightyA2CmF",
             "mangledName": "$s20SettingsUI_Protocols10AppearanceO5LightyA2CmF",
-            "moduleName": "SettingsUI_Protocols"
+            "moduleName": "SettingsUI_Protocols",
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
@@ -1320,7 +1322,8 @@
             "declKind": "EnumElement",
             "usr": "s:20SettingsUI_Protocols10AppearanceO6SystemyA2CmF",
             "mangledName": "$s20SettingsUI_Protocols10AppearanceO6SystemyA2CmF",
-            "moduleName": "SettingsUI_Protocols"
+            "moduleName": "SettingsUI_Protocols",
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Var",
@@ -1540,9 +1543,11 @@
         "mangledName": "$s20SettingsUI_Protocols10AppearanceO",
         "moduleName": "SettingsUI_Protocols",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Frozen"
         ],
         "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -1659,6 +1664,20 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },

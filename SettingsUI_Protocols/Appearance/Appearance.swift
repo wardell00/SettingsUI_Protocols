@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@frozen
 public enum Appearance: String, CaseIterable, Codable, Identifiable {
     
     public var id: Self { self }

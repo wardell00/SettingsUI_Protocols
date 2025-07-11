@@ -55,7 +55,7 @@ extension SettingsUI_Protocols.AccentColorTint {
 extension SwiftUICore.Color {
   public init?(hex: Swift.String)
 }
-public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
+@frozen public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
   public var id: SettingsUI_Protocols.Appearance {
     get
   }
@@ -127,4 +127,6 @@ extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}
 extension SettingsUI_Protocols.Appearance : Swift.RawRepresentable {}
+extension SettingsUI_Protocols.Appearance : Swift.Sendable {}
+extension SettingsUI_Protocols.Appearance : Swift.BitwiseCopyable {}
 extension SettingsUI_Protocols.PreferredColorScheme : Swift.Sendable {}
