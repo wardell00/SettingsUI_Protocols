@@ -10,23 +10,52 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-final public class SettingsValues {
-  final public var appearance: SettingsUI_Protocols.Appearance {
+public struct AccentColorKey : SwiftUICore.EnvironmentKey {
+  public static var defaultValue: SettingsUI_Protocols.AccentColorTint {
+    get
+  }
+  public typealias Value = SettingsUI_Protocols.AccentColorTint
+}
+extension SwiftUICore.EnvironmentValues {
+  public var accentColor: SettingsUI_Protocols.AccentColorTint {
     get
     set
-    _modify
   }
-  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
+}
+public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
+  public var id: Swift.String {
     get
-    set
-    _modify
   }
-  public init()
-  @objc deinit
+  public init(titleKey: Swift.String, colorName: Swift.String)
+  public init(titleKey: Swift.String, colorHex: Swift.String)
+  public var title: SwiftUICore.LocalizedStringKey {
+    get
+  }
+  public var color: SwiftUICore.Color {
+    get
+  }
+  public static func == (a: SettingsUI_Protocols.AccentColorTint, b: SettingsUI_Protocols.AccentColorTint) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
+extension SettingsUI_Protocols.AccentColorTint {
+  public static let blue: SettingsUI_Protocols.AccentColorTint
+  public static let green: SettingsUI_Protocols.AccentColorTint
+  public static let red: SettingsUI_Protocols.AccentColorTint
+  public static let purple: SettingsUI_Protocols.AccentColorTint
+  public static let blush: SettingsUI_Protocols.AccentColorTint
+  public static let cyan: SettingsUI_Protocols.AccentColorTint
+  public static let indigo: SettingsUI_Protocols.AccentColorTint
+  public static let mint: SettingsUI_Protocols.AccentColorTint
+  public static let orange: SettingsUI_Protocols.AccentColorTint
+  public static let pink: SettingsUI_Protocols.AccentColorTint
+  public static let teal: SettingsUI_Protocols.AccentColorTint
+  public static let yellow: SettingsUI_Protocols.AccentColorTint
+  public static let allCases: [SettingsUI_Protocols.AccentColorTint]
 }
-public struct AppStorageKey {
+extension SwiftUICore.Color {
+  public init?(hex: Swift.String)
 }
 @frozen public enum Appearance : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Identifiable {
   public var id: SettingsUI_Protocols.Appearance {
@@ -52,61 +81,6 @@ public struct AppStorageKey {
     get
   }
 }
-@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s20SettingsUI_Protocols20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
-  
-}
-public struct AccentColorKey : SwiftUICore.EnvironmentKey {
-  public static var defaultValue: SettingsUI_Protocols.AccentColorTint {
-    get
-  }
-  public typealias Value = SettingsUI_Protocols.AccentColorTint
-}
-extension SwiftUICore.EnvironmentValues {
-  public var accentColor: SettingsUI_Protocols.AccentColorTint {
-    get
-    set
-  }
-}
-public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
-  public var id: Foundation.UUID
-  public init(titleKey: Swift.String, colorName: Swift.String)
-  public init(titleKey: Swift.String, colorHex: Swift.String)
-  public var title: SwiftUICore.LocalizedStringKey {
-    get
-  }
-  public var color: SwiftUICore.Color {
-    get
-  }
-  public static func == (a: SettingsUI_Protocols.AccentColorTint, b: SettingsUI_Protocols.AccentColorTint) -> Swift.Bool
-  public typealias ID = Foundation.UUID
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension SettingsUI_Protocols.AccentColorTint {
-  public static let blue: SettingsUI_Protocols.AccentColorTint
-  public static let green: SettingsUI_Protocols.AccentColorTint
-  public static let red: SettingsUI_Protocols.AccentColorTint
-  public static let purple: SettingsUI_Protocols.AccentColorTint
-  public static let blush: SettingsUI_Protocols.AccentColorTint
-  public static let cyan: SettingsUI_Protocols.AccentColorTint
-  public static let indigo: SettingsUI_Protocols.AccentColorTint
-  public static let mint: SettingsUI_Protocols.AccentColorTint
-  public static let orange: SettingsUI_Protocols.AccentColorTint
-  public static let pink: SettingsUI_Protocols.AccentColorTint
-  public static let teal: SettingsUI_Protocols.AccentColorTint
-  public static let yellow: SettingsUI_Protocols.AccentColorTint
-  public static let allCases: [SettingsUI_Protocols.AccentColorTint]
-}
-extension SwiftUICore.Color {
-  public init?(hex: Swift.String)
-}
 public struct AppearanceKey : SwiftUICore.EnvironmentKey {
   public static var defaultValue: SettingsUI_Protocols.Appearance {
     get
@@ -119,6 +93,18 @@ extension SwiftUICore.EnvironmentValues {
     set
   }
 }
+@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20SettingsUI_Protocols20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
+  
+}
+public struct AppStorageKey {
+}
 public struct URLLink : Swift.Identifiable {
   public let id: Foundation.UUID
   public let systemImage: Swift.String
@@ -127,6 +113,22 @@ public struct URLLink : Swift.Identifiable {
   public let color: SwiftUICore.Color
   public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
   public typealias ID = Foundation.UUID
+}
+final public class SettingsValues {
+  final public var appearance: SettingsUI_Protocols.Appearance {
+    get
+    set
+    _modify
+  }
+  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
+    get
+    set
+    _modify
+  }
+  public init()
+  @objc deinit
+}
+extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}

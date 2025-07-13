@@ -10,16 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s20SettingsUI_Protocols20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
-  
-}
 public struct AppStorageKey {
 }
 public struct URLLink : Swift.Identifiable {
@@ -60,7 +50,9 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
-  public var id: Foundation.UUID
+  public var id: Swift.String {
+    get
+  }
   public init(titleKey: Swift.String, colorName: Swift.String)
   public init(titleKey: Swift.String, colorHex: Swift.String)
   public var title: SwiftUICore.LocalizedStringKey {
@@ -70,7 +62,7 @@ public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatab
     get
   }
   public static func == (a: SettingsUI_Protocols.AccentColorTint, b: SettingsUI_Protocols.AccentColorTint) -> Swift.Bool
-  public typealias ID = Foundation.UUID
+  public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -128,9 +120,19 @@ extension SwiftUICore.EnvironmentValues {
     set
   }
 }
-extension SettingsUI_Protocols.PreferredColorScheme : Swift.Sendable {}
+@_Concurrency.MainActor @preconcurrency public struct PreferredColorScheme<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20SettingsUI_Protocols20PreferredColorSchemeV4bodyQrvp", 0) __<Content>
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func changeAppearance() -> some SwiftUICore.View
+  
+}
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}
 extension SettingsUI_Protocols.Appearance : Swift.RawRepresentable {}
 extension SettingsUI_Protocols.Appearance : Swift.Sendable {}
 extension SettingsUI_Protocols.Appearance : Swift.BitwiseCopyable {}
+extension SettingsUI_Protocols.PreferredColorScheme : Swift.Sendable {}

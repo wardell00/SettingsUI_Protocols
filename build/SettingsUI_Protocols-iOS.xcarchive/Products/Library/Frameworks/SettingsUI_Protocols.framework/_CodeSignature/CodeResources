@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		xNgQLIUkne4mSL3QRpQme2Im/xc=
+		XLuXPoCtQIj1AYvRrW9608yZZYI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		EmJcPDu7XXrDZZGIQiGItpXrFCM=
+		EURQNiTsY10jS990ASQ6sK0tDB0=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		38l0BvyIq+kT6a5Q4bTi8v/btDc=
+		o9n6BTiFsl/CVJKZi0llBZkerVU=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		38l0BvyIq+kT6a5Q4bTi8v/btDc=
+		o9n6BTiFsl/CVJKZi0llBZkerVU=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		P3sKStgMyv197z+FmDBJgBya+9s=
+		uFXJlkWg3JFnYANYtjzabnl8G80=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -57,21 +57,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkI9GJTR6b9WU7WW3qe8OAaJS2e326S3Ep2PVuuvFFQ=
+			xszF69Ar+PBEo12n/pFMgBj9kO4RwvSEcxf9IHbVcvM=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3q095FVdrWSQ1WrhRYlYC7nccshxomIjzXVC5L9HpJc=
+			if/yY5wjsV8DLA19far9Zc6Qfrn1Hah1kY5IMUQs6hU=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zakE4bJvFOiTKsDDlP3Ihvvcfa5U7m68Yt8TZLTZhGU=
+			+ZQYi6if74lPV257g9yhDb5H+GI6O68WUt2LwO5hmpE=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zakE4bJvFOiTKsDDlP3Ihvvcfa5U7m68Yt8TZLTZhGU=
+			+ZQYi6if74lPV257g9yhDb5H+GI6O68WUt2LwO5hmpE=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WuM1JqPxpBPh9VjkxbCIZ6oOgS7BHPjn3teznAAS3kQ=
+			iWNf4BQjw7swUyDeQDjpwjy6i8tK72+sqIdt2lFyLmc=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

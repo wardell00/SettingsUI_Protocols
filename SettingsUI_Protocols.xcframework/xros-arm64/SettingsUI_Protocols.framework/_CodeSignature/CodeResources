@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		qbYPcCxZG4WSipOazO5szsjyPio=
+		Ov2Iq20cAy6a1xNbfLOKMPcQMP8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
-		NwDIZut+dSYELPef0prMwUOuQtk=
+		Ouf4CQCfKid/T/u3u8XKIEWnVq4=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		KMWRFxCoLnaTb7Q6p0E4wQgtu2o=
+		f1+eNvlO7lu6juah1AzbtnUF3yQ=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		KMWRFxCoLnaTb7Q6p0E4wQgtu2o=
+		f1+eNvlO7lu6juah1AzbtnUF3yQ=
 		</data>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		RM1aBYEr6XHcLE191Wj54Lo4vQw=
+		XqIW1Wd+kSEFl7o3l+u3ere4koE=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -57,21 +57,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SlX1z3+l8XSiK+hu8yUGC1PbvaLnClokNC52jqWjK2Q=
+			8RT2W+rKw9YIR3JeexjjcqgVLP1Bk8HIbEOg8M9bLFs=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8O9vSTOXwjgnozagaGXzJxtgiv0XFv0pPnH4RmX4v+I=
+			2xeD4DLFY6/ODBl19B8kd5eP5rNlBIeRH52EzuHI/AA=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gNQwSbC1J7jAgHbQqxQL+v0gbT6c0Wk8X8fVoM16Ly8=
+			vWYmSJ1G2CPDvTlf8QbWV7I7FSJEFNnoxorWDDAMtv0=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gNQwSbC1J7jAgHbQqxQL+v0gbT6c0Wk8X8fVoM16Ly8=
+			vWYmSJ1G2CPDvTlf8QbWV7I7FSJEFNnoxorWDDAMtv0=
 			</data>
 		</dict>
 		<key>Modules/SettingsUI_Protocols.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			02peHOfKJSdTl/eqva0rpMx9ZmVFW+Lqp/Ort4kgaXo=
+			cESNLPwS+2HXJ3eRfL9Mp/wluvGY9HKeY7Av9E/I6FM=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

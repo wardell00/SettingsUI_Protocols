@@ -10,6 +10,22 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+final public class SettingsValues {
+  final public var appearance: SettingsUI_Protocols.Appearance {
+    get
+    set
+    _modify
+  }
+  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
+    get
+    set
+    _modify
+  }
+  public init()
+  @objc deinit
+}
+extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
+}
 public struct AccentColorKey : SwiftUICore.EnvironmentKey {
   public static var defaultValue: SettingsUI_Protocols.AccentColorTint {
     get
@@ -23,7 +39,9 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatable {
-  public var id: Foundation.UUID
+  public var id: Swift.String {
+    get
+  }
   public init(titleKey: Swift.String, colorName: Swift.String)
   public init(titleKey: Swift.String, colorHex: Swift.String)
   public var title: SwiftUICore.LocalizedStringKey {
@@ -33,7 +51,7 @@ public struct AccentColorTint : Swift.Codable, Swift.Identifiable, Swift.Equatab
     get
   }
   public static func == (a: SettingsUI_Protocols.AccentColorTint, b: SettingsUI_Protocols.AccentColorTint) -> Swift.Bool
-  public typealias ID = Foundation.UUID
+  public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -111,22 +129,6 @@ public struct URLLink : Swift.Identifiable {
   public let color: SwiftUICore.Color
   public init(id: Foundation.UUID, systemImage: Swift.String, url: Foundation.URL?, text: SwiftUICore.LocalizedStringKey, color: SwiftUICore.Color)
   public typealias ID = Foundation.UUID
-}
-final public class SettingsValues {
-  final public var appearance: SettingsUI_Protocols.Appearance {
-    get
-    set
-    _modify
-  }
-  final public var accentColor: SettingsUI_Protocols.AccentColorTint {
-    get
-    set
-    _modify
-  }
-  public init()
-  @objc deinit
-}
-extension SettingsUI_Protocols.SettingsValues : Observation.Observable {
 }
 extension SettingsUI_Protocols.Appearance : Swift.Equatable {}
 extension SettingsUI_Protocols.Appearance : Swift.Hashable {}
