@@ -9,7 +9,7 @@ import SwiftUI
 
 public struct AccentColorTint: Codable, Identifiable, Equatable {
     
-    public var id: UUID = UUID()
+    public var id: String { "AccentColorTint ID: \(self.titleKey)" }
     
     let titleKey: String
     
